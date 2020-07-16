@@ -1,7 +1,7 @@
 import React from 'react'
 import {createDrawerNavigator} from '@react-navigation/drawer'
 import { View, Text } from 'react-native'
-import { Drawer } from 'react-native-paper'
+//import { Drawer } from 'react-native-paper'
 import StackNavigation from './StackNavigation';
 import VideoGames from '../screens/VideoGames';
 import DrawerContent from './DrawerContent';

@@ -5,7 +5,7 @@ import {IconButton} from 'react-native-paper';
 import Home from '../screens/Home';
 import Search from '../screens/Search';
 import VideoGames from '../screens/VideoGames';
-import StackNavigation from './StackNavigation';
+//import StackNavigation from './StackNavigation';
 import Navigation from './Navigation';
 
 const Stack = createStackNavigator();
@@ -27,7 +27,7 @@ export default function StackNavigation(props) {
                 options={{
                 title: 'Tienda de videoJuegos',
                 headerLeft: () => buttonLeft(),
-                headerRight: () => buttonRight(),
+                //headerRight: () => buttonRight(),
                 }}
             />
             <Stack.Screen
@@ -36,7 +36,7 @@ export default function StackNavigation(props) {
                 options={{
                 title: 'Lista de juegos',
                 headerLeft: () => buttonLeft(),
-                headerRight: () => buttonRight(),
+                //headerRight: () => buttonRight(),
                 }}
             />
             <Stack.Screen
@@ -45,7 +45,7 @@ export default function StackNavigation(props) {
                 options={{
                 title: 'VideoJuegos',
                 headerLeft: () => buttonLeft(),
-                headerRight: () => buttonRight(),
+                //headerRight: () => buttonRight(),
                 }}
             />
             </Stack.Navigator>

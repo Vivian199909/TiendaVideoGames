@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { Drawer } from 'react-native-paper';
 import StackNavigation from './StackNavigation';
@@ -7,7 +7,7 @@ import { DrawerContentScrollView } from '@react-navigation/drawer';
 
 export default function DrawerContent(props) {
     const {navigation}=props;
-    const {active,setActive}= useState('home');
+    const [active,setActive]= useState('home');
     const onChangeScreen = (screen)=>{
         navigation.navigate(screen);
     }
